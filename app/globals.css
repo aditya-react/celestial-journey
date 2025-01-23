@@ -19,3 +19,95 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* body {
+  font-family: Arial, sans-serif;
+} */
+
+.layout-pt-md,
+.layout-pb-md {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sectionTitle__text {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.col-lg-4 {
+  flex: 0 0 calc(33.333% - 1rem);
+}
+
+.col-md-6 {
+  flex: 0 0 calc(50% - 1rem);
+}
+
+.col-sm-12 {
+  flex: 0 0 100%;
+}
+
+.citiesCard {
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.citiesCard:hover {
+  transform: translateY(-5px);
+}
+
+.citiesCard__image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.citiesCard__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.citiesCard__content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: #fff;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.citiesCard__content h4 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.citiesCard__content p {
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+}
