@@ -19,9 +19,10 @@ export default function Footer() {
               <span className="ml-2 text-xl font-bold text-blue-600">Celestial Journeys</span>
             </div>
             <p className="mt-4 text-sm text-gray-600">Toll Free Customer Care</p>
-            <p className="text-lg font-bold">+1 123 456 7890</p>
+            <p className="text-lg font-bold">89490224230</p>
+            <p className="text-lg font-bold">76655603580</p>
             <p className="mt-2 text-sm text-gray-600">Need live support?</p>
-            <p className="text-lg font-bold">hi@celestialjourneys.in</p>
+            <p className="text-lg font-bold">celestialjourneys.life@gmail.com</p>
             <div className="mt-4">
               <p className="text-sm text-gray-600">Your all-in-one travel app</p>
               <div className="flex gap-2 mt-2">
