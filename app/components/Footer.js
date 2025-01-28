@@ -16,7 +16,7 @@ export default function Footer() {
                   className='h-full w-full object-cover'
                 />
               </div>
-              <span className="ml-2 text-xl font-bold text-blue-600">Celestial Journey</span>
+              <span className="ml-2 text-xl font-bold text-blue-600">Celestial Journeys</span>
             </div>
             <p className="mt-4 text-sm text-gray-600">Toll Free Customer Care</p>
             <p className="text-lg font-bold">+1 123 456 7890</p>
